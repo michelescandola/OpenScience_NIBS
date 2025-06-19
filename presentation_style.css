@@ -1,0 +1,118 @@
+#mytitle {
+   color: blue;
+}
+
+.box {
+    color: black; background: #E8E8E8;
+    position: fixed;
+    width: 25%;
+}
+
+body {
+ background-image: url("background.png");
+ background: linear-gradient(to right, #f0f4f8, #cccccc);
+ color: #000000;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+slides > slide {
+  overflow-y: auto !important;
+}
+
+.tg  {border-collapse:collapse;border-color:#93a1a1;border-spacing:0;margin:0px auto;}
+.tg td{background-color:#fdf6e3;border-color:#93a1a1;border-style:solid;border-width:1px;color:#002b36;
+  font-family:Arial, sans-serif;font-size:80%;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{background-color:#657b83;border-color:#93a1a1;border-style:solid;border-width:0px;color:#fdf6e3;
+  font-family:Arial, sans-serif;font-size:80%;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-fymr{border-color:inherit;font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-0pky1{border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-0pky2{border-color:inherit;text-align:right;vertical-align:top}
+
+blockquote p {
+    padding: 15px;
+    background: #eee;
+    border-radius: 5px;
+    color: #000000;
+}
+
+blockquote p::before {
+    content: '\201C';
+}
+
+blockquote p::after {
+    content: '\201D';
+}
+.shiny-input-container {
+  color: #474747;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.center2 {
+  margin: 0;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.top-three {
+     margin-top: 3cm;
+}
+
+.title-slide {
+  background-image: url("by-nc.png");
+}
+
+/* H1 - Centered in the middle of the page */
+h1 {
+  font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+  font-size: 3.5em;
+  font-weight: 600;
+  color: #2c3e50;
+
+  text-align: center;
+  padding: 0.5em 1em;
+  border-radius: 12px;
+  background: linear-gradient(145deg, #ffffff, #f0f0f0);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* H2 - Section headers at the top */
+h2 {
+  font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+  font-size: 2.2em;
+  font-weight: 500;
+  color: #34495e;
+
+  text-align: left;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 0.3em;
+}
+
+/* H3 - Subsection headers at the top */
+h3 {
+  font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+  font-size: 1.5em;
+  font-weight: 400;
+  color: #555;
+
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  text-align: left;
+  border-left: 4px solid #dcdcdc;
+  padding-left: 0.5em;
+}
+
+
